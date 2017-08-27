@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,16 +18,15 @@ public class MainActivity extends AppCompatActivity {
     private final static int RESULT_CAMERA = 1001;
     private static final String TAG = MainActivity.class.getSimpleName();
 
-    private ImageView imageView;
-    private TextView mImageDetails;
-
+    private ImageView mimageView;
+    private ListView mlistView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mImageDetails = (TextView) findViewById(R.id.image_details);
-        imageView = (ImageView)findViewById(R.id.image_view);
+        mimageView = (ImageView)findViewById(R.id.image_view);
+        mlistView = (ListView) findViewById(R.id.element_list);
         Button cameraButton = (Button)findViewById(R.id.camera_button);
         cameraButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == RESULT_CAMERA) {
             Bitmap bitmap = (Bitmap) data.getExtras().get("data");
-            imageView.setImageBitmap(bitmap);
+            mimageView.setImageBitmap(bitmap);
             uploadImage(bitmap);
         }
     }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         }
         try {
             Log.d(TAG, "--------------------------------------");
-            FetchImageAITask task = new FetchImageAITask(getBaseContext(), mImageDetails,bitmap);
+            FetchImageAITask task = new FetchImageAITask(getApplicationContext(),bitmap,mlistView);
             task.execute();
             Toast.makeText(this,"poststart", Toast.LENGTH_SHORT);
         } catch (Exception e) {

@@ -5,13 +5,20 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.util.Base64;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -25,16 +32,18 @@ import javax.net.ssl.HttpsURLConnection;
 public class FetchImageAITask extends AsyncTask<Integer, Integer, String> {
 
     private String api_key;
-    private TextView mTextView;
+    private ListView mListView;
     private HttpsURLConnection mConnection;
     private Bitmap mBitmap;
+    private Context context;
 
     /**
      * コンストラクタ
      */
-    public FetchImageAITask(Context context, TextView textView, Bitmap bitmap) {
+    public FetchImageAITask(Context context, Bitmap bitmap, ListView listView) {
         super();
-        this.mTextView   = textView;
+        this.context = context;
+        this.mListView = listView;
         this.mBitmap = bitmap;
         this.api_key = context.getString(R.string.cloudvision);
         try {
@@ -86,6 +95,22 @@ public class FetchImageAITask extends AsyncTask<Integer, Integer, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        mTextView.setText(String.valueOf(result));
+        ArrayList<String> list = new ArrayList<String>();
+        try {
+            JSONObject json = new JSONObject(result);
+            JSONArray responses = json.getJSONArray("responses");
+            JSONArray labelAnnotations = responses.getJSONObject(0).getJSONArray("labelAnnotations");
+            for (int i = 0; i < labelAnnotations.length(); i++) {
+                JSONObject data = labelAnnotations.getJSONObject(i);
+                String description = data.getString("description");
+                String score = data.getString("score");
+                list.add(description+":"+score);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        ArrayAdapter<String> arrayAdapter =
+                new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, list);
+        mListView.setAdapter(arrayAdapter);
     }
 }
