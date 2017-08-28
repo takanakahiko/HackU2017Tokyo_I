@@ -1,89 +1,86 @@
-[ImageDef] myhome01
-[ImageDef] box01
-[ImageDef] box02
-[ImageDef] summercamera
-[ImageDef] cyber
-[ImageDef] myhome02
-[ImageDef] mati01
-[ImageDef] mati02
-[ImageDef] huyu_hutuu_kuti03
-[ImageDef] huyu_hutuu_kuti00
-[ImageDef] huyu_hutuu_kuti01
-[ImageDef] huyu_odoroki_kuti01
 [ImageDef] umi02
-[ImageDef] umi01
-[SoundDef] chime
-[SoundDef] boxopen
-[SoundDef] camerashutter1
-[SoundDef] computer01
-[SoundDef] monitaon
-[SoundDef] walkasphalt1
+[ImageDef] room01
+[ImageDef] mati03
+[ImageDef] huyu_odoroki_kuti01
+[ImageDef] huyu_akire_kuti02
+[ImageDef] huyu_hutuu_kuti00
+[ImageDef] huyu_hutuu_kuti02
+[ImageDef] huyu_hutuu_kuti03
+[ImageDef] huyu_kurai_kuti01
+[ImageDef] huyu_kurai_kuti02
+[ImageDef] huyu_tere_kuti02
+[ImageDef] huyuheya_odoroki_kuti01
+[ImageDef] huyuheya_egao_kuti02
+[ImageDef] huyuheya_hutuu_kuti00
+[ImageDef] huyuheya_hutuu_kuti03
+[ImageDef] huyuheya_kurai_kuti01
+[ImageDef] huyuheya_kurai_kuti02
 [SoundDef] dooropen1
-
+[SoundDef] walkasphalt1
 [Image] 0 null
 [Image] 1 null
 [Image] 2 null
-[Image] 0 myhome01
+[Image] 0 mati03
 [Name] あなた
-暑い、夏なのに冷房がないというのは辛い。
-冷房がないのは僕が一人暮らしを始めるため、この部屋に実家から引っ越してきたばかりだからである。
-[Sound] chime
-チャイムが鳴った。
-「お届け物です～」
-[Image] 2 box01
-…？実家からだろうか？さっき引っ越してきたばかりなのに郵便物なんて奇妙だ。
-[Image] 2 box01
-やはり、実家の住所からだった。しかし差出人名に「未来」と書いてある。
-[Image] 2 box01
-自分の家族に「未来」なんていう名前の人間はいない。家族の誰かがふざけたのだろうか。
-[Image] 2 box02
-[Sound] boxopen
-箱を開けた。
-[Image] 2 summercamera
-カメラが出てきた。結構大きく、ポラロイドカメラのような見た目だ。
-[Image] 2 summercamera
-しかし、なぜ家族は自分にカメラを送ってきたのだろうか？…わからない
-[Image] 2 summercamera
-わからないが、せっかくなので試しに使ってみよう。
-[Sound] camerashutter1
-この部屋を撮る。
-[Image] 2 null
-[Image] 0 cyber
-[Sound] computer01
-!!??
-[Image] 0 myhome02
-[Sound] monitaon
-ええええええええええええええ！！？？
-このカメラから空間にモニターが写ってる…。自分が撮った写真だ。
-すごい技術だ。本当に未来からきたカメラなのかもしれない。
-…まあ、それはないだろうけど、企業の新製品をお試しで送ってくれたとかかな？
-[Image] 2 summercamera
-ともかくすごいカメラだ…。もっと試してみよう。
-[Sound] dooropen1
-[Image] 0 mati01
-[Sound] walkasphalt1
-[Image] 2 null
-海にでも行くか
-[Image] 0 umi01
-景色が綺麗だ。ここを撮ろう。
-[Image] 0 umi02
-[Sound] camerashutter1
-[Sound] walkasphalt1
-…？？あれ景色が変わった？しかも急にめちゃくちゃ寒い！！すぐ家に帰ろう…。
-[Image] 0 mati02
-[Image] 1 huyu_hutuu_kuti00
-…めちゃくちゃだ…いったいどうなってるんだ…？
-[Image] 0 mati02
-…あれ、誰かいる？
-[Image] 1 huyu_odoroki_kuti01
-[Sound] walkasphalt1
-あのー！？すみませーん！
-[Image] 1 huyu_odoroki_kuti01
-ここはどこなんでしょうか？¥nそれと…あ、あれ？ボクのカメラと同じ…。
-[Image] 1 huyu_hutuu_kuti00
+ちょっと暖かくなったのかな？でもまだ、結構寒いな。この世界にもまだ荒廃してない街はあったんだ。
 [Name] ナツハ
-…。
 [Image] 1 huyu_hutuu_kuti03
-わたしは…あなたが現れるのをずっと待っておりました。
+こんにちは。またお会いできて光栄です。
 [Image] 1 huyu_hutuu_kuti03
-お願いします。一緒に、この世界の失われた夏をとりもどしてください。
+[Sound] walkasphalt1
+突然で申し訳ありませんが、こちらについてきてください。
+[Image] 0 room01
+[Image] 1 huyuheya_hutuu_kuti00
+[Sound] dooropen1
+[Name] あなた
+暖房効いててあったかい。
+[Name] ナツハ
+[Image] 1 huyuheya_hutuu_kuti03
+この世界の夏レベルがあなたのおかげでまた向上しました。本当にありがとうございます。
+[Image] 1 huyuheya_kurai_kuti02
+お礼しても…しきれません。ここは私の所属するグループの建物ですので、遠慮せずくつろいでください。
+[Name] あなた
+[Image] 1 huyuheya_hutuu_kuti00
+グループ？
+[Name] ナツハ
+[Image] 1 huyuheya_hutuu_kuti03
+私を含めて4人しかいない小さなグループなんですが、「夏を取り戻す会」といいます。
+[Image] 1 huyuheya_egao_kuti02
+秘密結社です。
+[Image] 1 huyuheya_kurai_kuti01
+あなたには品物や高価なお礼を差し上げたいのですが過去の世界に影響を与えるものを持ち帰るのはダメなんです
+[Image] 1 huyuheya_kurai_kuti01
+そもそも私がサマーカメラを過去に送り込んだ事もあなたがここにいる事もこの世界では重大な違法行為なんです
+[Name] あなた
+[Image] 1 huyuheya_kurai_kuti01
+ええ…つまり僕は犯罪に加担させられてたの？
+[Name] ナツハ
+[Image] 1 huyuheya_kurai_kuti02
+あなたはこの世界の住人ではないので未来の法は適用されません。安心してください。
+[Image] 1 huyuheya_kurai_kuti01
+しかし、私達の事情にあなたを巻き込んでしまったことは本当に申し訳ないと思っております。
+[Image] 1 huyuheya_kurai_kuti02
+ですから、組織を代表してお礼をさせてください。物品を渡す以外でしたら私になんでもお申し付けください。
+[Image] 1 huyuheya_kurai_kuti01
+これぐらいしか、あなたに提供できるものがないんです…。本当に申し訳ありません
+[Name] あなた
+[Image] 1 huyuheya_odoroki_kuti01
+お茶しよ！
+[Name] ナツハ
+[Image] 1 huyuheya_odoroki_kuti01
+……そんなことでいいんですか？
+[Name] あなた
+[Image] 1 huyuheya_odoroki_kuti01
+なんでそこまでして夏を取り戻したいの？とか、サマーカメラの謎や違法がばれたらどうなるの？とか。
+[Image] 1 huyuheya_odoroki_kuti01
+色々聞きたいからだけど、まずはナツハちゃんについて知りたいです！
+[Name] ナツハ
+[Image] 1 huyuheya_kurai_kuti02
+…私の話なんてつまらないと思います。
+[Image] 1 huyuheya_egao_kuti02
+それでもよろしければいくらでもお話しさせてください。
+[Name] あなた
+[Image] 1 huyuheya_egao_kuti02
+やったぜ
+[Image] 1 huyuheya_egao_kuti02
+ナツハちゃんと少し仲良くなった気がした。
