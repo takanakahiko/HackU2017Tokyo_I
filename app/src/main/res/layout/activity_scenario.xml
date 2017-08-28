@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Scenario_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="Scenario_Home"
+            android:text="ホーム" />
+
+        <Button
+            android:id="@+id/Scenario1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ1" />
+
+        <Button
+            android:id="@+id/Scenario2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ2" />
+
+        <Button
+            android:id="@+id/Scenario3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ3" />
+
+        <Button
+            android:id="@+id/Scenario4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario5"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ4" />
+
+        <Button
+            android:id="@+id/Scenario5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ5" />
+
+        <Button
+            android:id="@+id/Scenario6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ6" />
+
+        <Button
+            android:id="@+id/Scenario7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Scenario8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="シナリオ7" />
+
+        <Button
+            android:id="@+id/Scenario8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp"
+            android:text="シナリオ8"
+            android:layout_above="@+id/Scenario_Home"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

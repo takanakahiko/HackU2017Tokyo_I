@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room01"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/Time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.3"
+                android:background="#ccFFFFFF"
+                android:gravity="center"
+                android:textColor="#cc996633"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PlayerName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/Time"
+                android:layout_toEndOf="@+id/Time"
+                android:layout_weight="0.3"
+                android:background="#ccFFFFFF"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PlayerLevel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/Time"
+                android:layout_toEndOf="@+id/Time"
+                android:layout_weight="0.3"
+                android:background="#ccFFFFFF"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Charactor_Comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.27"
+                android:background="@drawable/hukidashi"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="35dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="680dp"
+            android:layout_height="680dp"
+            android:layout_toEndOf="@+id/Home_Album"
+            android:layout_weight="0.7"
+            android:background="@null"
+            android:onClick="imageButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Home_Album"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/albumicon"
+            android:onClick="Home_Album" />
+
+        <ImageButton
+            android:id="@+id/Home_Camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/cameraicon"
+            android:onClick="Home_Camera" />
+
+        <ImageButton
+            android:id="@+id/Home_Scenario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/scenarioicon"
+            android:onClick="Home_Scenario" />
+    </LinearLayout>
+
+</LinearLayout>
