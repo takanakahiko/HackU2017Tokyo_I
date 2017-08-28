@@ -1,6 +1,7 @@
 package com.example.takanakahiko.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -37,10 +38,16 @@ public class StoryActivity extends AppCompatActivity {
     TextView textLabel, nameLabel;
     ImageView imageViews[] = new ImageView[3];
 
+    String storyFile = "TextAssets.txt";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
+
+        // MainActivity からのデータを受け取る
+        Intent intent = getIntent();
+        storyFile = intent.getStringExtra("storyFile");
 
         imageViews[0] = (ImageView)findViewById(R.id.imageView0);
         imageViews[1] = (ImageView)findViewById(R.id.imageView1);
@@ -83,7 +90,7 @@ public class StoryActivity extends AppCompatActivity {
         BufferedReader br;
         AssetManager as = getResources().getAssets();
         try{
-            is = as.open("TextAssets.txt");
+            is = as.open(storyFile);
             br = new BufferedReader(new InputStreamReader(is));
             String str;
             while ((str = br.readLine()) != null) {
