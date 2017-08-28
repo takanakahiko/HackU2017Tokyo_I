@@ -104,10 +104,11 @@ public class ScenarioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
-    //メイン画面に遷移
-    public void Scenario_Home(View v) {
-        finish();
+
+        Button Scenario_Home = (Button) findViewById(R.id.Scenario_Home);
+        Scenario_Home.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {finish();}
+        });
     }
 }
