@@ -42,7 +42,7 @@
 [Image] 2 summercamera
 カメラが出てきた。結構大きく、ポラロイドカメラのような見た目だ。
 [Image] 2 summercamera
-しかし、なぜ家族は自分にカメラを送ってきたのだろうか？＼n…わからない
+しかし、なぜ家族は自分にカメラを送ってきたのだろうか？…わからない
 [Image] 2 summercamera
 わからないが、せっかくなので試しに使ってみよう。
 [Sound] camerashutter1
@@ -50,11 +50,11 @@
 [Image] 2 null
 [Image] 0 cyber
 [Sound] computer01
-!?
+!!??
 [Image] 0 myhome02
 [Sound] monitaon
 ええええええええええええええ！！？？
-このカメラから空間にモニターが写ってる…。¥n自分が撮った写真だ。
+このカメラから空間にモニターが写ってる…。自分が撮った写真だ。
 すごい技術だ。本当に未来からきたカメラなのかもしれない。
 …まあ、それはないだろうけど、企業の新製品をお試しで送ってくれたとかかな？
 [Image] 2 summercamera
@@ -69,21 +69,21 @@
 [Image] 0 umi02
 [Sound] camerashutter1
 [Sound] walkasphalt1
-…？？あれ景色が変わった？¥nしかも急にめちゃくちゃ寒い！！¥nすぐ家に帰ろう…。
+…？？あれ景色が変わった？しかも急にめちゃくちゃ寒い！！すぐ家に帰ろう…。
 [Image] 0 mati02
 [Image] 1 huyu_hutuu_kuti00
-…めちゃくちゃだ…/nいったいどうなってるんだ…？
+…めちゃくちゃだ…いったいどうなってるんだ…？
 [Image] 0 mati02
 …あれ、誰かいる？
 [Image] 1 huyu_odoroki_kuti01
 [Sound] walkasphalt1
 あのー！？すみませーん！
 [Image] 1 huyu_odoroki_kuti01
-ここはどこなんでしょうか？¥nそれと…あ、あれ？¥nボクのカメラと同じ…。
+ここはどこなんでしょうか？¥nそれと…あ、あれ？ボクのカメラと同じ…。
 [Image] 1 huyu_hutuu_kuti00
 [Name] ナツハ
 …。
 [Image] 1 huyu_hutuu_kuti03
 わたしは…あなたが現れるのをずっと待っておりました。
 [Image] 1 huyu_hutuu_kuti03
-お願いします。一緒に、¥nこの世界の失われた夏をとりもどしてください。
+お願いします。一緒に、この世界の失われた夏をとりもどしてください。
