@@ -35,6 +35,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, RESULT_CAMERA);
             }
         });
+        Button storyButton = (Button)findViewById(R.id.story_button);
+        storyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), StoryActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

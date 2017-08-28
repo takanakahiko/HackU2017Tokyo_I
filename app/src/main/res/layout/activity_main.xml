@@ -14,11 +14,18 @@
         android:layout_margin="20dp"
         android:text="camera button" />
 
+    <Button
+        android:id="@+id/story_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="story mode" />
+
     <ImageView
         android:id="@+id/image_view"
         android:scaleType="fitCenter"
-        android:layout_width="300dp"
-        android:layout_height="300dp" />
+        android:layout_width="140dp"
+        android:layout_height="135dp" />
 
     <ListView
         android:id="@+id/element_list"
