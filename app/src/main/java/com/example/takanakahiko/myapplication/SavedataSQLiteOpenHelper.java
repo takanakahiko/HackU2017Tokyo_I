@@ -21,23 +21,18 @@ public class SavedataSQLiteOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE `savedata` (" +
-                "  `id` int(11) NOT NULL," +
-                "  `name` varchar(255)  DEFAULT NULL," +
-                "  `value` varchar(255)  DEFAULT NULL," +
-                "  PRIMARY KEY (`id`)" +
+                "  `name_c` TEXT  DEFAULT NULL," +
+                "  `value_c` TEXT DEFAULT NULL," +
+                "  PRIMARY KEY (`name_c`)" +
                 ")");
-        db.beginTransaction();
         ContentValues values = new ContentValues();
-        values.put("`name`","score");
-        values.put("`value`","0");
+        values.put("`name_c`","score");
+        values.put("`value_c`","0");
         db.insert("`savedata`", null, values);
-        db.setTransactionSuccessful();
-        db.endTransaction();
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
     }
 
 }

@@ -27,7 +27,9 @@ public class ScenarioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scenario);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        int score = Integer.parseInt(SavedataSQLiteWrapper.get(this,"score"));
+        String score_str = SavedataSQLiteWrapper.get(MainActivity.db,"score");
+        int score = 0;
+        if(!score_str.equals("")) score = Integer.parseInt(score_str);
 
         //未開放シナリオボタン非表示
         for (int i = 0; i < 8; i++) {
@@ -42,7 +44,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets01.txt");
                 startActivity(intent);
             }
         });
@@ -51,7 +53,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets02.txt");
                 startActivity(intent);
             }
         });
@@ -60,7 +62,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets03.txt");
                 startActivity(intent);
             }
         });
@@ -69,7 +71,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets04.txt");
                 startActivity(intent);
             }
         });
@@ -78,7 +80,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets05.txt");
                 startActivity(intent);
             }
         });
@@ -87,7 +89,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets06.txt");
                 startActivity(intent);
             }
         });
@@ -96,7 +98,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets_sab.txt");
                 startActivity(intent);
             }
         });
@@ -105,7 +107,7 @@ public class ScenarioActivity extends AppCompatActivity {
         Scenario8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
+                intent.putExtra("storyFile", "TextAssets_sab.txt");
                 startActivity(intent);
             }
         });

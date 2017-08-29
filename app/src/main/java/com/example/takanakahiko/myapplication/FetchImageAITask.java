@@ -1,13 +1,10 @@
 package com.example.takanakahiko.myapplication;
 
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
-import android.renderscript.Double2;
 import android.util.Base64;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
@@ -15,17 +12,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Map;
 
 import javax.net.ssl.HttpsURLConnection;
 
@@ -56,7 +48,6 @@ public class FetchImageAITask extends AsyncTask<Integer, Integer, String> {
         this.loading = loading;
         this.retTextView = retTextView;
         try {
-
         }catch(Exception e){
             e.printStackTrace();
         }
@@ -128,9 +119,11 @@ public class FetchImageAITask extends AsyncTask<Integer, Integer, String> {
                 }
             }
             if(upFlag) topScore*=3;
-            int score = (Integer.parseInt(SavedataSQLiteWrapper.get(context,"score")) + topScore);
+            int score = (Integer.parseInt(SavedataSQLiteWrapper.get(MainActivity.db,"score")) + topScore);
+            Log.d("tes",""+score);
             String score_str = ""+score;
-            SavedataSQLiteWrapper.set(context,"score", score_str);
+            SavedataSQLiteWrapper.set(MainActivity.db,"score", score_str);
+            Log.d("TAG",(SavedataSQLiteWrapper.get(MainActivity.db,"score")));
         } catch (Exception e) {
             e.printStackTrace();
         }

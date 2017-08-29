@@ -1,0 +1,70 @@
+﻿[ImageDef] mati03
+[ImageDef] room01
+[ImageDef] huyuheya_kurai_kuti02
+[ImageDef] summercamera
+[ImageDef] huyuheya_hutuu_kuti03
+[ImageDef] myhome02
+[ImageDef] mati01
+[ImageDef] umi02
+[ImageDef] huyu_odoroki_kuti01
+[ImageDef] huyu_hutuu_kuti03
+[ImageDef] huyu_hutuu_kuti00
+[ImageDef] huyu_hutuu_kuti01
+[ImageDef] huyu_hutuu_kuti02
+[ImageDef] huyu_odoroki_kuti01
+[ImageDef] huyuheya_egao_kuti02
+[ImageDef] huyuheya_kurai_kuti01
+[ImageDef] huyuheya_kurai_kuti02
+[ImageDef] huyuheya_odoroki_kuti01
+[ImageDef] huyu_kurai_kuti01
+[ImageDef] huyu_akire_kuti02
+[ImageDef] huyu_tere_kuti02
+[ImageDef] huyu_kurai_kuti02
+
+[Image] 0 null
+[Image] 1 null
+[Image] 2 null
+[Image] 0 umi02
+[Image] 1 huyu_odoroki_kuti01
+[Name] ナツハ
+あ
+[Image] 1 huyu_hutuu_kuti02
+またお会いできましたね。嬉しいです。
+[Image] 1 huyu_hutuu_kuti03
+ここに来たという事は、また夏にまつわるものを撮影していただいた。という事ですね。
+[Image] 1 huyu_egao_kuti02
+ありがとうございます！おかげで少し暖かくなった気がします。
+[Image] 1 huyu_kurai_kuti02
+今後も「夏」をとりつづけていただければ幸いです。この世界の人はみんな助かります…。
+[Image] 1 huyu_hutuu_kuti00
+[Name] あなた
+感謝しすぎでは？きみも「夏」を撮ってるんじゃないの？
+[Image] 1 huyu_kurai_kuti01
+[Name] ナツハ
+私も撮ってはいるんですが、既にこの世界には「夏」にまつわるものがほとんど残っていないんです。
+[Image] 1 huyu_kurai_kuti02
+さらに、ここの周辺だと海ぐらいしか夏らしいものがなくて…。
+[Image] 1 huyu_kurai_kuti01
+同じものを撮り続けても夏レベルは向上しにくいみたいなんです…。
+[Image] 1 huyu_kurai_kuti02
+つまり過去の世界から「夏」を撮ってくることができるあなただけが、この世界の希望なんです。
+[Image] 1 huyu_hutuu_kuti00
+[Name] あなた
+？？君が過去に飛んで、夏を撮ってくればいいんじゃないの？
+[Image] 1 huyu_kurai_kuti01
+[Name] ナツハ
+私達の世界の人間はサマーカメラでは\n過去に飛ぶことができないんです。原因はわかりません…。
+[Image] 1 huyu_hutuu_kuti00
+[Name] あなた
+なるほどなぁ…この世界の事情はわかりました。夏らしきものをもっと撮影します。
+[Image] 1 huyu_hutuu_kuti02
+[Name] ナツハ
+ありがとうございます。どうか、これからもよろしくお願いします。
+[Image] 1 huyu_hutuu_kuti00
+[Name] あなた
+ちなみにナツハちゃんは彼氏いるの？
+[Image] 1 huyu_akire_kuti02
+[Name] ナツハ
+えっ
+[Image] 1 huyu_tere_kuti02
+い、いません…いたことも…ないです…

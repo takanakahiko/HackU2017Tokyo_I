@@ -1,0 +1,77 @@
+﻿[ImageDef] natu01
+[ImageDef] natu_hutuu_kuti00
+[ImageDef] natu_hutuu_kuti03
+[ImageDef] natu_kurai_kuti02
+[ImageDef] natu_odoroki_kuti01
+[ImageDef] natu_egao_kuti02
+[ImageDef] natu_odoroki_kuti01
+[ImageDef] natu_hutuu_kuti02
+[SoundDef] summermountain1
+[SoundDef] leaves01
+
+
+[Image] 0 null
+[Image] 1 null
+[Image] 2 null
+[Image] 0 natu01
+[Image] 1 natu_hutuu_kuti00
+[Name] あなた
+[Sound] summermountain1
+セミの鳴き声が聞こえる…全滅してなかったのか
+[Name] ナツハ
+[Image] 1 natu_hutuu_kuti03
+全滅してなかったのか
+[Image] 1 natu_hutuu_kuti03
+あなたのおかげです
+[Image] 1 natu_kurai_kuti02
+あなたのおかげでこの世界に「夏」が蘇りつつあります本当に…感謝しきれません…
+[Name] あなた
+[Image] 1 natu_odoroki_kuti01
+まあまあ、せっかくの登山デートなんだから。そんなに恐縮しないで！もっとフレンドリーに話そうよ
+[Name] ナツハ
+[Image] 1 natu_egao_kuti02
+……はいっ！
+[Name] あなた
+[Image] 1 natu_odoroki_kuti01
+[Sound] leaves01
+お、あそこにひまわり咲いてる。夏レベル上げなきゃ。ちょっと撮ってくる！
+[Name] ナツハ
+[Image] 1　natu_hutuu_kuti00
+……………。
+[Image] 1 natu_hutuu_kuti02
+このカメラを拾ったのが。あなたで本当に良かった。
+[Image] 1 natu_hutuu_kuti02
+この先、どんなことが起こっても私はあなたのことは忘れません
+[Name] あなた
+[Image] 1 natu_hutuu_kuti00
+ナツハちゃーん！こっち来ないのー！？
+[Name] ナツハ
+[Image] 1 natu_egao_kuti02
+ありがとう…神様…
+[Image] 1 natu_hutuu_kuti03
+あなたのおかげです
+[Image] 1 natu_kurai_kuti02
+あなたのおかげでこの世界に「夏」が蘇りつつあります本当に…感謝しきれません…
+[Name] あなた
+[Image] 1 natu_odoroki_kuti01
+まあまあ、せっかくの登山デートなんだから。そんなに恐縮しないで！もっとフレンドリーに話そうよ
+[Name] ナツハ
+[Image] 1 natu_egao_kuti02
+……はいっ！
+[Name] あなた
+[Image] 1 natu_odoroki_kuti01
+[sound] leaves01
+お、あそこにひまわり咲いてる。夏レベル上げなきゃ。ちょっと撮ってくる！
+[Name] ナツハ
+[Image] 1 natu_hutuu_kuti00
+……………。
+[Image] 1 natu_hutuu_kuti02
+このカメラを拾ったのが。あなたで本当に良かった。
+[Image] 1 natu_hutuu_kuti02
+この先、どんなことが起こっても私はあなたのことは忘れません
+[Name] あなた
+[Image] 1 natu_hutuu_kuti00
+ナツハちゃーん！こっち来ないのー！？
+[Name] ナツハ
+[Image] 1 natu_egao_kuti02
+ありがとう…神様…！

@@ -1,0 +1,79 @@
+﻿[ImageDef] mati02
+[ImageDef] huyu_egao_kuti02
+[ImageDef] huyu_egao_kuti03
+[ImageDef] huyu_hutuu_kuti01
+[ImageDef] huyu_hutuu_kuti02
+[ImageDef] huyu_hutuu_kuti03
+[ImageDef] summercamera
+[ImageDef] aicon
+[ImageDef] huyu_kurai_kuti01
+[ImageDef] mati01
+[ImageDef] myhome01
+[ImageDef] main01
+[ImageDef] main02
+[ImageDef] myhome02
+[SoundDef] chime
+[SoundDef] computer01
+[SoundDef] dooropen1
+[SoundDef] walkasphalt1
+
+[Image] 0 null
+[Image] 1 null
+[Image] 2 null
+[Image] 0 mati02
+[Image] 1 huyu_egao_kuti03
+[Name] ？？？"
+初めまして。私は海崎 夏葉（ウミサキ ナツハ）と言います。ナツハと呼んでください。
+[Image] 1 huyu_hutuu_kuti01
+[Name] ナツハ
+あなたもいきなりこんな世界に飛ばされて混乱しているかと思いますが、まずは私の話を聞いてください。
+[Image] 1 huyu_hutuu_kuti01
+[Image] 0 myhome02
+信じられないかもしれませんが、この世界はあなたが住んでいた世界より遥か未来の世界なんです。
+[Image] 1 huyu_hutuu_kuti03
+[Image] 2 summercamera
+でも、安心してください。あなたが持っているそのカメラを使えば簡単に元の世界に帰ることができます。
+[Image] 1 huyu_hutuu_kuti02
+[Image] 2 aicon
+このカメラは「サマーカメラ」と言います。それの使い方を説明しますね。
+[Image] 2 null
+[Image] 1 huyu_hutuu_kuti03
+[Image] 0 main01
+まずはメイン画面です。①はアプリのカメラを起動します。②はシナリオ選択画面に移動します。
+[Image] 1 huyu_hutuu_kuti03
+[Image] 0 main02
+カメラで「夏にまつわるもの」を撮影するとメイン画面の夏レベルが上昇しゲームが進行します。
+夏レベルの上昇に伴って新しいシナリオが解禁されたりメイン画面の私の衣装が変化したりします。
+[Image] 1 huyu_hutuu_kuti01
+？何故「夏」にまつわるもの撮影しなければならないか？ですか
+[Image] 1 huyu_kurai_kuti01
+この世界の「夏」を取り戻すためです。ここは「夏」が無くなってしまった世界なんです。
+[Image] 1 huyu_kurai_kuti01
+「夏」という季節が無くなったせいでこの世界はずっと異常気象なんです。その影響でこの街も荒廃してしまいました。
+[Image] 1 huyu_kurai _kuti01
+[Image] 2 summercamera
+そして、私達の持つこの「サマーカメラ」にはこの世界の夏を取り戻す不思議な力があるんです。
+[Image] 1 huyu_kurai_kuti01
+その不思議な力を発揮するにはたくさんの「夏」を撮る必要があるんです。
+[Image] 1 huyu_kurai_kuti01
+[Image] 2 summercamera
+お願いします。元いた世界に戻ったら、このカメラでたくさんの「夏」を撮っていただけないでしょうか？
+[Image] 1 huyu_hutuu_kuti03
+[Image] 2 summercamera
+私とはカメラのメイン画面でいつでも交信できますから、わからないことがあったら何でも聞いてくださいね。
+[Image] 1 huyu_hutuu_kuti03
+[Image] 2 summercamera
+さあ、このボタンを押してもとの世界に戻りましょう。
+[Image] 1 huyu_egao_kuti02
+[Sound] computer01
+[Image} 2 null
+また、「夏」を撮影したら会いましょう！
+[Image] 0 mati01
+[Sound] walkasphalt1
+…
+[Image] 0 myhome01
+[Sound] dooropen1
+[Name] あなた
+…やっと帰ってこれた…。何もかも突然でよくわからなかったけど…。とにかく帰ってこれた…。
+…これからどうしよう？
+

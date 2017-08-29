@@ -1,0 +1,78 @@
+﻿[ImageDef] mati03
+[ImageDef] room01
+[ImageDef] cinema01
+[ImageDef] aki_egao_kuti02
+[ImageDef] aki_hutuu_kuti00
+[ImageDef] aki_hutuu_kuti02
+[ImageDef] aki_hutuu_kuti03
+[ImageDef] mati04
+[ImageDef] aki_tere_kuti02
+[ImageDef] aki_hutuu_kuti00
+[ImageDef] restaurant01
+[ImageDef] aki_kurai_kuti02
+[SoundDef] openshopdoor
+[SoundDef] bigcity1
+[SoundDef] walkasphalt1
+ 
+
+[Image] 0 null
+[Image] 1 null
+[Image] 2 null
+[Image] 0 mati03
+[Name] あなた
+あれ？ちょっと暖かくなったのかな？あんまり寒くない
+[Name] ナツハ
+[Image] 1 aki_egao_kuti02
+こんにちは。またお会いできて…本当に光栄です。
+[Image] 1 aki_hutuu_kuti02
+外もだいぶあたたかくなりました。あなたのおかげで、秋の服でも出歩けるようになったんです。
+[Image] 1 aki_kurai_kuti02
+感謝しても…しきれません…。本当にありがとうございました…。
+[Image] 1 aki_egao_kuti02
+今日はご馳走させてください。お店も準備しておきました。
+[Name] あなた
+[Image] 1 aki_egao_kuti02
+（やったぜ。デートだ！。)
+[Name] ナツハ
+[Image] 1 aki_egao_kuti02
+[Sound] walkasphalt1
+歓迎させてください。どうぞ、こちらへ。
+[Image] 0 restaurant01
+[Sound] openshopdoor
+[Image] 1 aki_hutuu_kuti03
+ここはプロの料理人が調理している珍しいお店なんです。
+[Name] あなた
+[Image] 1 aki_hutuu_kuti00
+ロボットの調理がこの世界のスタンダードなのか…
+[Image] 1 aki_hutuu_kuti00
+ナツハちゃんは映画が好きなんだっけ最近はどんな映画よく見るの？
+[Name] ナツハ
+[Image] 1 aki_hutuu_kuti03
+ドキュメンタリーとか、実際にあった事に基づいている映画とかが好きです歴史ものもよく見ます。
+[Name] あなた
+[Image] 1 aki_hutuu_kuti00
+未来の世界の映画って興味わくなぁこの後見に行かない？
+[Name] ナツハ
+[Image] 1 aki_egao_kuti02
+いいですね！是非見にいきましょう！
+[Image] 0 cinema01
+……ッグズ…
+[Name] あなた
+（映像はすごいけどそんなに泣ける場面かなぁ？これ？）
+[Image] 0 mati04
+[Sound] bigcity1
+[Name] ナツハ
+[Image] 1 aki_tere_kuti02
+良い映画でした…。とても楽しかったです！グズッッ！！
+[Name] あなた
+[Image] 1 aki_tere_kuti02
+おもしかったね～うんうん（あー明日朝早いからそろそろ帰らないとまずいのか）
+[Name] ナツハ
+[Image] 1 aki_kurai_kuti02
+………明日は忙しいんですよね…。
+[Name] あなた
+[Image] 1 aki_hutuu_kuti00
+………また、今日みたいにつきあってもらってもいい？
+[Name] ナツハ
+[Image] 1 aki_tere_kuti02
+……！はい！是非！喜んで！

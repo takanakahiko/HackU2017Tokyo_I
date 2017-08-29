@@ -1,0 +1,63 @@
+﻿[ImageDef] umi02
+[ImageDef] huyu_hutuu_kuti00
+[ImageDef] huyu_hutuu_kuti02
+[ImageDef] huyu_odoroki_kuti01
+[ImageDef] huyu_kurai_kuti02
+[ImageDef] huyu_odoroki_kuti02
+[ImageDef] huyu_egao_kuti02
+[ImageDef] umi02b
+[ImageDef] natu_hutuu_kuti02
+[SoundDef] wave1
+
+
+[Image] 0 null
+[Image] 1 null
+[Image] 2 null
+[Image] 0 umi02
+[Image] 1 huyu_hutuu_kuti02
+[Sound] wave1
+[Name] ナツハ
+今回は西瓜の写真を撮って\nこちらに来たんですか…
+[Name] あなた
+[Image] 1 huyu_hutuu_kuti00
+美味かったよ
+[Name] ナツハ
+[Image] 1 huyu_hutuu_kuti02
+羨ましいです私も食べたいな西瓜
+[Name] あなた
+[Image] 1 huyu_hutuu_kuti00
+街に買いに行こうよ
+[Name] ナツハ
+[Image] 1 huyu_kurai_kuti02
+西瓜は無理ですね。貴重品すぎてどこにも売ってません。あったとしても高価すぎて手が出せません。
+[Name] あなた
+[Image] 1 huyu_odoroki_kuti01
+じゃあ今度来るとき持ってくるよ
+[Name] ナツハ
+[Image] 1 huyu_odoroki_kuti02
+いいんですか！？
+[Name] ナツハ
+[Image] 1 huyu_egao_kuti02
+ありがとうございます！！\nありがとうございます！！
+[Name] あなた
+[Image] 1 huyu_egao_kuti02
+そ、そんなに好きなんだ西瓜。食べたことあるの？
+[Image] 0 umi02b
+[Name] ナツハ
+[Image] 1 huyu_egao_kuti02
+私が小さかった頃おばあちゃんの家で食べたことがあります！高価なのにおばあちゃんが奮発してくれたんです
+[Name] あなた
+[Image] 1 huyu_hutuu_kuti00
+おばあちゃんの家で西瓜かぁいいね！情景が思い浮かぶよ\n庭にひまわり咲いてそう
+[Name] ナツハ
+[Image] 1 huyu_egao_kuti02
+暖房の効いた部屋で食べた西瓜はおいしかったなぁ
+[Name] あなた
+[Image] 1 huyu_hutuu_kuti00
+あ、あ、うーん。暖房かぁ…。
+[Name] ナツハ
+[Image] 1 natu_hutuu_kuti02
+また、食べたいなぁ。西瓜
+[Name] あんた
+[Image] 1 natu_hutuu_kuti02
+時代が違うんだなぁ
