@@ -5,33 +5,76 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
-    <Button
-        android:id="@+id/camera_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="camera button" />
 
-    <Button
-        android:id="@+id/story_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="story mode" />
-
-    <ImageView
-        android:id="@+id/image_view"
-        android:scaleType="fitCenter"
-        android:layout_width="140dp"
-        android:layout_height="135dp" />
-
-    <ListView
-        android:id="@+id/element_list"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_dark" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:context=".MainActivity">
+
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp" />
+
+            <TextView
+                android:id="@+id/retTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:text="50点獲得！"
+                android:textAlignment="center"
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:text="夏を少し取り戻しました！"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/element_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@android:color/holo_blue_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoText="false"
+                android:gravity="center"
+                android:text="読み込み中..."
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </FrameLayout>
 
 
 </LinearLayout>

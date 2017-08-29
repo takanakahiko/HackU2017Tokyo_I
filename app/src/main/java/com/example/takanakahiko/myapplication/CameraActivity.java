@@ -1,6 +1,7 @@
 package com.example.takanakahiko.myapplication;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +10,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class CameraActivity extends AppCompatActivity {
@@ -19,31 +22,20 @@ public class CameraActivity extends AppCompatActivity {
 
     private ImageView mimageView;
     private ListView mlistView;
+    private LinearLayout loading;
+    private TextView retTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         mimageView = (ImageView)findViewById(R.id.image_view);
         mlistView = (ListView) findViewById(R.id.element_list);
-        Button cameraButton = (Button)findViewById(R.id.camera_button);
-        cameraButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(intent, RESULT_CAMERA);
-            }
-        });
-        Button storyButton = (Button)findViewById(R.id.story_button);
-        storyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), StoryActivity.class);
-                intent.putExtra("storyFile", "TextAssets.txt");
-                startActivity(intent);
-            }
-        });
-
+        loading = (LinearLayout) findViewById(R.id.loading);
+        retTextView = (TextView) findViewById(R.id.retTextView);
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent, RESULT_CAMERA);
     }
 
     @Override
@@ -61,8 +53,7 @@ public class CameraActivity extends AppCompatActivity {
             return;
         }
         try {
-            Log.d(TAG, "--------------------------------------");
-            FetchImageAITask task = new FetchImageAITask(getApplicationContext(),bitmap,mlistView);
+            FetchImageAITask task = new FetchImageAITask(getApplicationContext(), bitmap, mlistView, loading, retTextView);
             task.execute();
             Toast.makeText(this,"poststart", Toast.LENGTH_SHORT);
         } catch (Exception e) {

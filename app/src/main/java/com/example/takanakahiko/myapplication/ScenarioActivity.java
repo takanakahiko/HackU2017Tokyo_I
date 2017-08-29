@@ -1,6 +1,7 @@
 package com.example.takanakahiko.myapplication;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,12 +25,16 @@ public class ScenarioActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scenario);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        int score = Integer.parseInt(SavedataSQLiteWrapper.get(this,"score"));
 
         //未開放シナリオボタン非表示
         for (int i = 0; i < 8; i++) {
-            if (Scenario_TorF[i] == false) {
+            if (i*1000 > score) {
                 Button button = (Button) findViewById(Scenario[i]);
                 button.setText("未開放");
+                button.setEnabled(false);
             }
         }
 
